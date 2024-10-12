@@ -32,12 +32,7 @@ public class RunnerClass {
 
         LinearEquation coordinates = new LinearEquation(xCoordOne,xCoordTwo,yCoordOne,yCoordTwo);
 
-//        System.out.println("First Pair: "+"("+xCoordOne+","+yCoordOne+")");
-//        System.out.println("Second Pair: "+"("+xCoordTwo+","+yCoordTwo+")");
-//        System.out.println("Slope: "+ coordinates.slope());
-//        System.out.println("Distance: "+ coordinates.distance());
-//        System.out.println("Equation: " + coordinates.equation());
-//        System.out.println("The corresponding point on the line is: " + coordinates.calculateY(xPoint));
+
         System.out.println(coordinates);
         System.out.println("The corresponding point on the line is: " + coordinates.calculateY(xPoint));
     }
